@@ -1,0 +1,28 @@
+# ---------- Dependencies ----------
+# Installed packages - huge, and regenerable any time with `npm install`
+node_modules/
+
+# ---------- Secrets / environment ----------
+# Real values only - NEVER commit these. (.env.example is NOT covered by these
+# patterns, so it still gets committed as the template for teammates/customers)
+.env
+.env.local
+.env.*.local
+
+# ---------- Logs ----------
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# ---------- Testing (will be used in the Jest phase) ----------
+# Coverage reports are generated output, not source code
+coverage/
+
+# ---------- OS junk ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------- Editor ----------
+.vscode/
+.idea/
